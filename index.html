@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link id="main-style" rel="stylesheet" href="./variable-style.css">
+    <!-- <link id="main-style" rel="stylesheet" href="./dark-style.css"> -->
 </head>
 <body class="light-theme">
+<!-- tolgo la classe light-theme al body per cambiare i temi in un altro modo -->
+
     <div class="main"> 
     <div class="toolbar"> 
         <button onclick="printValue()"> logga </button>
-        <button onclick="changeTheme()"> tema </button>
+        <button onclick="changeTheme()"> tema nero </button>
+        <button onclick="changeTheme2()"> tema rosso </button>
+        <button onclick="changeTheme3()"> tema rosso </button>
+        <input type="checkbox" name="theme-check" id="theme-check" checked>
     </div>
     <div contenteditable id="text-div" class="text-div"> </div>
 </div>

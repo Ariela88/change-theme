@@ -11,6 +11,12 @@ html, body{
     
 }
 
+body{
+    background-color: rgb(38, 38, 38);
+    color:white;
+}
+
+
 
 
 
@@ -34,15 +40,3 @@ html, body{
 
 }
 
-.red-theme{
-    background-color: rgb(130, 37, 37);
-    color: black;
-    
-}
-
-
-.light-theme{
-    background-color: white;
-    color: black;
-
-}
